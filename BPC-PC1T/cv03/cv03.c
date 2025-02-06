@@ -12,4 +12,6 @@ int main(){
     scanf ("%d", &time);
     int s = time * v;
     printf ("Lightning distance: %d m.", s);
+
+    return 0;
 }
