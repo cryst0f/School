@@ -59,6 +59,7 @@ int main(){
     }else if(o == '-'){
         sub (a,b,c);
     }else{
+        printf("Invalid operator!");
         return 1;
     }
     print(c);
